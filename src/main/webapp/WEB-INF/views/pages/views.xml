@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+    <definition extends="default" name="productform">
+        <put-attribute name="body" value="/WEB-INF/views/pages/shop/productform.jsp" />
+    </definition>
+    
+   <definition extends="default" name="productlist">
+   		<put-attribute name="body" value="/WEB-INF/views/pages/shop/productlist.jsp" />
+   </definition>
+   
+     <definition extends="default" name="productshow">
+        <put-attribute name="body" value="/WEB-INF/views/pages/shop/productshow.jsp" />
+    </definition>
+        
+    <definition extends="default" name="blogForm">
+    	<put-attribute name="body" value="/WEB-INF/views/pages/blog/blogForm.jsp"></put-attribute>
+    </definition>
+    
+    <definition extends="default" name="editBlogForm">
+    	<put-attribute name="body" value="/WEB-INF/views/pages/blog/editBlogForm.jsp"></put-attribute>
+    </definition>
+    
+     <definition extends="default" name="blogUser">
+    	<put-attribute name="body" value="/WEB-INF/views/pages/blog/blogUser.jsp"></put-attribute>
+    </definition>
+    
+    <definition extends="default" name="editBlog">
+    	<put-attribute name="body" value="/WEB-INF/views/pages/blog/editBlog.jsp"></put-attribute>
+    </definition>
+    
+    <!--Start Blog post and Blog List -->
+    <definition extends="default" name="blogList">
+    	<put-attribute name="body" value="/WEB-INF/views/pages/blog/blogList.jsp"></put-attribute>
+    </definition>
+    
+    <definition extends="default" name="blogPostList">
+    	<put-attribute name="body" value="/WEB-INF/views/pages/blog/blogPostList.jsp"></put-attribute>
+    </definition>
+    <!--End Blog post and Blog List -->
+    
+    <!--Start Blog Content -->
+     <definition extends="default" name="blogContent">
+    	<put-attribute name="body" value="/WEB-INF/views/pages/blog/blogContent.jsp"></put-attribute>
+    </definition>
+    
+     <!--End Blog Content -->
+     
+    <!-- Start login -->
+     <definition extends="default" name="login">
+    	<put-attribute name="body" value="/WEB-INF/views/pages/security/login.jsp"></put-attribute>
+    </definition>
+    
+     <definition extends="default" name="registration">
+    	<put-attribute name="body" value="/WEB-INF/views/pages/security/registration.jsp"></put-attribute>
+    </definition>
+      <!-- End login -->
+     
+    <!-- add bookmark to list -->
+    <definition extends="default" name="bookMarkList">
+    	<put-attribute name="body" value="/WEB-INF/views/pages/blog/bookMarkList.jsp"></put-attribute>
+    </definition>
+    
+    <!-- Notification -->
+    <definition extends="default" name="notification">
+    	<put-attribute name="body" value="/WEB-INF/views/pages/security/notification.jsp"></put-attribute>
+    </definition>
+</tiles-definitions>
